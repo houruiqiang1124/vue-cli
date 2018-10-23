@@ -132,3 +132,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     2. 使用路由,如：
         <router-link to="/user/userChild"></router-link>
     3. 子路由需要使用 <router-view></router-view>
+
+## less的使用
+    npm install less less-loader --save-dev
+    安装成功后，打开 build/webpack.base.conf.js ，在 module.exports = 的对象的 module.rules 后面添加一段
+    {
+        test: /\.less$/,
+        loader: "style-loader!css-loader!less-loader"
+    }

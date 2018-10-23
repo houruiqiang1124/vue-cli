@@ -1,0 +1,17 @@
+@themeColor: #0089dc;
+
+@themeBgColor: #0af;
+
+/* 单行、多行文本溢出显示省略号 */
+.textOverflow1 {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.textOverflow2(@num: 2) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @num;
+    overflow: hidden;
+}

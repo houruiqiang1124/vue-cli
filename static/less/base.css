@@ -1,0 +1,6 @@
+/* 单行、多行文本溢出显示省略号 */
+.textOverflow1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
