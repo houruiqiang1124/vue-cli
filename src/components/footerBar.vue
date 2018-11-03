@@ -28,7 +28,7 @@ export default {
 <style lang="less" scoped>
 @import '../../static/less/base.less';
     .footerBar {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
